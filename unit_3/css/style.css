@@ -1,0 +1,27 @@
+body {
+    background-color: #ff552b;
+    font-family: Arial;
+    color: #ffafbe;
+    font-size: 20px;
+    text-align: center;
+}
+
+h1 {
+    background-color: #ff552b;
+    font-size: 200px;
+    font-family: Times;
+    line-height: .2;
+}
+
+#slogan {
+    font-style: italic;
+    font-size: 50px;
+}
+
+a {
+    color: #ffafbe;
+}
+
+ul {
+    list-style: inside;
+}

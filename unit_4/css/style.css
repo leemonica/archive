@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:900');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+
+body {
+    background-color: #ff552b;
+    font-family: Arial;
+    color: #ffafbe;
+    font-size: 30px;
+    text-align: center;
+}
+
+h1 {
+    background-color: #ff552b;
+    font-size: 200px;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1px;
+    line-height: .2;
+}
+
+a {
+    color: #ffafbe;
+    font-weight: bold;
+}
+
+ul {
+    list-style: inside;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#slogan {
+    font-size: 50px;
+}

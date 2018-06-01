@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+
+body {
+    font-family: Arial;
+    font-size: 30px;
+    text-align: left;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+nav {
+    background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+section {
+    background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    line-height: .2;
+}
+
+#writing {
+    width: 400px;
+}
+
+#design {
+    width: 400px;
+}
+
+#photography {
+    width: 800px;
+}

@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:300,600,900');
+
+body {
+    font-family: 'Muli', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: left;
+    background-color: #ffffff;
+    max-width: 100%;
+}
+
+nav {
+    display: inline-block;
+  background-color: #ffe4cc;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  width: 200px;
+  height: 100vh;
+}
+
+.row-wrapper {
+    display: inline-block;
+}
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+
+#columns {
+    background-color: #7f7f7f;
+    text-align: center;
+  background-color: red;
+  height: 100vh;
+}
+
+#col1 {
+  height: 100vh;
+  background-color: #f7f7f7;
+}
+
+#col2 {
+  height: 100vh;
+  background-color: #d1d1d1;
+}
+
+#col3 {
+  height: 100vh;
+  background-color: #95ff93;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: 'Muli', sans-serif;
+    font-weight: 900;
+    letter-spacing: 1px;
+    line-height: .2;
+}
+
+a {
+  text-decoration: none;
+  color: #dd6658;
+  display: block;
+  padding: 10px 20px;
+}
+
+a:hover {
+  background-color: #ffbb84;
+}
+
+img {
+  max-width: 80%;
+  padding-top: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  nav {
+    float: none;
+    max-height: 400px;
+    width: 100%;
+  }
+  img {
+    max-width: 180px;
+  }
+  aside {
+    float: none;
+    max-height: 400px;
+  }
+  #one {
+    width: 100%;
+  }
+  #two {
+    width: 100%;
+  }
+  #three {
+    width: 100%;
+  }
+}
